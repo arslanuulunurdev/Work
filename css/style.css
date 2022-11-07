@@ -510,6 +510,7 @@ body {
 .product-btn2 {
     display: flex;
     align-items: center;
+    justify-content:space-between;
     margin: 40px 0;
 
 
@@ -537,4 +538,340 @@ body {
     margin: 0 20px;
 }
 
+/*block*/
+#blocks {
+    padding: 50px 0;
+    background: white;
+}
+.blocks h1 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343D;
+}
+.blocks p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343D;
+    padding: 25px 0;
+}
+.blocks-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block {
+    width: 348px;
+    height: 359px;
+    background: #E5E5E5;
+    border-radius: 8px;
+}
+.block h3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    padding: 10px 15px;
+}
+.block h3 span {
+    font-weight: 700;
+    font-size: 16px;
+    color: #22343D;
+}
+.block h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+    padding: 0 15px;
+}
+.blocks-icon {
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blocks-icon a {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+    color: #02897A;
+}
+/*block*/
 
+/*price*/
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.price-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-title1 {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 300px;
+    background: #E5E5E5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 322px;
+}
+.free1 {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.free1 h1 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #22343D;
+    padding-bottom: 15px;
+}
+.free1 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+}
+.free1 h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 76px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #02897A;
+}
+.price-nav p {
+    padding: 8px 0;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+}
+.price-btn {
+    padding: 25px 0;
+}
+.price-btn button:hover {
+    background: transparent;
+    border: 2px solid #F03E3D;
+}
+.price-btn button {
+    background: #02897A;
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: .4s;
+    cursor: pointer;
+}
+.price-title2 {
+    margin: 0 55px;
+    width: 322px;
+    height: 456px;
+    background: #02897A;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.free2 {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.free2 h1 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.free2 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.free2 h2 {
+    position: relative;
+    font-weight: 700;
+    font-size: 76px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.price-nav2 p {
+    padding: 8px 0;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.price-btn2 {
+    padding: 25px 0;
+}
+.price-btn2 button:hover {
+    background: wheat;
+    border: 2px solid #F03E3D;
+}
+.price-btn2 button {
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #02897A;
+    transition: .4s;
+    cursor: pointer;
+}
+/*price*/
+
+/*join*/
+#join {
+    padding: 50px 0;
+    background: #FFFFFF;
+}
+.join {
+    margin: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 968px;
+    height: 345px;
+    background: #02897A;
+    border-radius: 32px;
+}
+.join h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    color: #FFFFFF;
+}
+.join-title button:hover {
+    background: wheat;
+    border: 2px solid #F03E3D;
+}
+.join button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897A;
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    transition: .4s;
+    cursor: pointer;
+}
+/*join*/
+
+
+
+
+
+
+
+
+
+
+#footer {
+    padding: 80px 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 180px;
+}
+
+.footer-logo h1 {
+    color: #173A56;
+    padding-left: 16px;
+}
+
+.footer-logo a {
+    color: #02897A;
+}
+
+.footer-down {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer-left h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343D;
+}
+
+.footer-left p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    padding: 10px 0;
+}
+
+.footer-right h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343D;
+}
+
+.footer-right p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    padding: 10px 0;
+}
+
+.footer-down label {
+    padding: 40px 0;
+}
+
+.footer-down input {
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-down h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343D;
+}
+
+.footer-down button {
+    height: 39px;
+    width: 131px;
+    background: #02897A;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tittle {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    text-align: center;
+    padding: 40px 0;
+}
